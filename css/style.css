@@ -1,0 +1,164 @@
+/*desktop */
+@media screen and (min-width:768px){  
+    *{
+        box-sizing: border-box;
+    }
+section{
+        border: solid 1px #b7b7b7;
+        background-color: #d8d8d8;
+        text-align: center;
+        color:white;
+        font-size: 25px;
+    } 
+
+article{
+    width:90%;
+    margin: auto;
+    margin-top:30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 250px 150px;
+}
+#a{
+    grid-column: 1/6;
+    height: 100px;
+    line-height: 100px;
+    background-color: hotpink;
+}
+#b{
+    grid-column: 1/2;
+    height: 600px;
+    line-height: 600px;
+    background-color: rgb(209, 99, 99);
+}
+#c{
+    grid-column: 2/4;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgb(124, 75, 146);
+}
+#d{
+    grid-column: 4/6;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgb(58, 14, 36);
+}
+#e{
+    grid-column: 2/3;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(177, 87, 132);
+}
+#f{
+    grid-column: 3/4;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(117, 35, 76);
+}
+#g{
+    grid-column: 4/5;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(177, 165, 171);
+}
+#h{
+    grid-column: 5/6;
+    height: 250px;
+    line-height: 250px;
+    background-color: rgb(119, 88, 104);
+}
+#i{
+    grid-column: 2/6;
+    height: 150px;
+    line-height: 150px;  
+    background-color: rgb(131, 16, 73);
+}
+#b,#i{
+    margin-bottom: 30px;
+
+}
+}
+/*mobile*/
+@media screen and (max-width:767px){  
+*{
+    box-sizing: border-box;
+}
+section{
+    border: solid 1px #b7b7b7;
+    background-color: #d8d8d8;
+    text-align: center;
+    color:white;
+    font-size: 25px;}
+article{
+    width:90%;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+#e,#g{
+    float: left;
+}
+#f,#h{
+    float: right;
+}
+#a,#b,#c,#d,#i{
+  width: 100%;
+}
+#e,#f,#g,#h{
+    width: 50%;
+}
+
+#i{
+    clear: both;
+}
+#a{
+    height: 75px;
+    line-height: 75px;
+    background-color: turquoise;
+}
+#b{
+    height: 150px;
+    line-height: 150px;
+    background-color: rgb(62, 185, 173);
+
+}
+#c{
+    background-color: rgb(55, 80, 77);
+
+}
+#d{
+    background-color: rgb(151, 190, 187);
+
+}
+#e{
+    background-color: rgb(2, 77, 69);
+
+}
+#f{
+    background-color: rgb(68, 77, 158);
+
+}
+#g{
+    background-color: rgb(7, 83, 76);
+
+}
+#h{
+    background-color: rgb(157, 238, 230);
+
+}
+#c,#d{
+    height: 125px;
+    line-height: 125px;
+}
+#e,#f,#g,#h{
+    height:250px ;
+    line-height: 250px;
+}
+#i{
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(58, 161, 151);
+
+}
+}
