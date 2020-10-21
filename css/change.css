@@ -1,16 +1,8 @@
 /*desktop */
-@media screen and (min-width:768px){  
+@media screen and (min-width:860px){  
     *{
         box-sizing: border-box;
     }
-section{
-        border: solid 1px #b7b7b7;
-        background-color: #d8d8d8;
-        text-align: center;
-        color:white;
-        font-size: 25px;
-    } 
-
 article{
     width:90%;
     margin: auto;
@@ -21,55 +13,64 @@ article{
 }
 #a{
     grid-column: 1/6;
-    height: 100px;
+    grid-row: 1/2;
+    /* height: 100px; */
     line-height: 100px;
     background-color: hotpink;
 }
 #b{
     grid-column: 1/2;
-    height: 600px;
+    grid-row: 2/5;
+    /* height: 600px; */
     line-height: 600px;
     background-color: rgb(209, 99, 99);
 }
 #c{
     grid-column: 2/4;
-    height: 200px;
+    grid-row: 2/3;
+    /* height: 200px; */
     line-height: 200px;
     background-color: rgb(124, 75, 146);
 }
 #d{
     grid-column: 4/6;
-    height: 200px;
+    grid-row: 2/3;
+    /* height: 200px; */
     line-height: 200px;
     background-color: rgb(58, 14, 36);
 }
 #e{
     grid-column: 2/3;
-    height: 250px;
+    grid-row: 3/4;
+    /* height: 250px; */
     line-height: 250px;
     background-color: rgb(177, 87, 132);
 }
 #f{
     grid-column: 3/4;
-    height: 250px;
+    grid-row: 3/4;
+    /* height: 250px; */
     line-height: 250px;
     background-color: rgb(117, 35, 76);
 }
 #g{
     grid-column: 4/5;
-    height: 250px;
+    grid-row: 3/4;
+    /* height: 250px; */
     line-height: 250px;
     background-color: rgb(177, 165, 171);
 }
 #h{
     grid-column: 5/6;
-    height: 250px;
+    grid-row: 3/4;
+    /* height: 250px; */
     line-height: 250px;
     background-color: rgb(119, 88, 104);
 }
 #i{
     grid-column: 2/6;
-    height: 150px;
+    grid-row: 4/5;
+    /* height: 150px; */
     line-height: 150px;  
     background-color: rgb(131, 16, 73);
 }
